@@ -4,6 +4,12 @@
 
 Locate modules using the [Node resolution algorithm](https://nodejs.org/api/modules.html#modules_all_together), for using third party modules in `node_modules`
 
+# Fork
+
+This is a (hopefully temporary) published fork, with the new es2015 option shown
+below. Hopefully this functionality (as in this fork, or better) will arrive in
+the upstream `rollup-plugin-node-resolve` shortly.
+
 ## Installation
 
 ```bash

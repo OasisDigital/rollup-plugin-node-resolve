@@ -4,7 +4,7 @@
 
 Locate modules using the [Node resolution algorithm](https://nodejs.org/api/modules.html#modules_all_together), for using third party modules in `node_modules`
 
-# Fork
+# Fork Alert!
 
 This is a (hopefully temporary) published fork, with the new es2015 option shown
 below. Hopefully this functionality (as in this fork, or better) will arrive in
@@ -13,14 +13,14 @@ the upstream `rollup-plugin-node-resolve` shortly.
 ## Installation
 
 ```bash
-npm install --save-dev rollup-plugin-node-resolve
+npm install --save-dev @oasisdigital/rollup-plugin-node-resolve
 ```
 
 ## Usage
 
 ```js
 import { rollup } from 'rollup';
-import nodeResolve from 'rollup-plugin-node-resolve';
+import nodeResolve from '@oasisdigital/rollup-plugin-node-resolve';
 
 rollup({
   entry: 'main.js',

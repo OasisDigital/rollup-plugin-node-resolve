@@ -1,26 +1,23 @@
-# rollup-plugin-node-resolve
-
-*This plugin used to be called rollup-plugin-npm*
+# rollup-plugin-node-resolve-angular
 
 Locate modules using the [Node resolution algorithm](https://nodejs.org/api/modules.html#modules_all_together), for using third party modules in `node_modules`
 
-# Fork Alert!
+# Angular 4+ support!
 
-This is a (hopefully temporary) published fork, with the new es2015 option shown
-below. Hopefully this functionality (as in this fork, or better) will arrive in
-the upstream `rollup-plugin-node-resolve` shortly.
+This variant of the main `rollup-plugin-node-resolve` adds the ability
+to reach the new es2015-in-es2015-modules, shipped with Angular 4+.
 
 ## Installation
 
 ```bash
-npm install --save-dev @oasisdigital/rollup-plugin-node-resolve
+npm install --save-dev rollup-plugin-node-resolve-angular
 ```
 
 ## Usage
 
 ```js
 import { rollup } from 'rollup';
-import nodeResolve from '@oasisdigital/rollup-plugin-node-resolve';
+import nodeResolve from 'rollup-plugin-node-resolve-angular';
 
 rollup({
   entry: 'main.js',

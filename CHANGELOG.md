@@ -1,4 +1,8 @@
-# rollup-plugin-node-resolve changelog
+# rollup-plugin-node-resolve-angular changelog
+
+## 2.0.3
+
+Publish as `rollup-plugin-node-resolve-angular`.
 
 ## 2.0.0
 
